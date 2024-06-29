@@ -28,6 +28,19 @@
 
 > _GitHub_ is a web-based platform that hosts Git repositories, providing tools for version control, collaboration, and project management. It includes features like pull requests, issues, and CI/CD integration, enhancing team workflows and code sharing.
 
+## Git vs GitHub
+
+| Feature             | Git                                                                    | GitHub                                                                            |
+| ------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Definition          | Distributed version control system for tracking changes in source code | Web-based platform for hosting Git repositories and collaborating on projects     |
+| Main Purpose        | Version control and source code management                             | Repository hosting, collaboration, and project management                         |
+| Initial Release     | 2005                                                                   | 2008                                                                              |
+| Hosting             | Local and remote repositories                                          | Remote repositories                                                               |
+| Interface           | Command-line interface                                                 | Web-based interface with integrations to other tools and services                 |
+| Additional Features | Branching, merging, rebasing, and more                                 | Pull requests, issues, project boards, GitHub Actions for CI/CD, and more         |
+| Authentication      | SSH keys, HTTPS, and CLI                                               | Personal access tokens, OAuth, SSH keys, and SAML                                 |
+| Integration         | Can be integrated with various CI/CD tools manually                    | Built-in CI/CD with GitHub Actions, integrates with many other tools and services |
+
 ## Fundamendatal actions using Git
 
 > <strong>Clone</strong>: Create a local copy of a remote repository from the Github.<br> <strong>Commit</strong>: Save changes to the local repository with a message describing the changes in form of tree.<br> <strong>Push</strong>: Upload local commits to a remote repository.<br> <strong>Pull</strong>: Fetch and merge changes from a remote repository to the local repository.<br> <strong>Branch</strong>: Create a separate line of development used to mulitple ways of development of the same repository at the same time .<br> <strong>Merge</strong>: Combine changes from different branches after dealing with conflicts to main branch.<br> <strong>Fork</strong>: Create a personal copy of someone else's repository on GitHub.<br><strong>Issues</strong>: Track bugs, enhancements, or tasks related to the project.<br>
