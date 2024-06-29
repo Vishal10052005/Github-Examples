@@ -1,8 +1,22 @@
 # Github-Examples
 
-```
-
-```
+- [Git and GitHub](#what-is-git-and-github)
+  - [Git](#git)
+  - [Github](#github)
+- [Fundamental Actions using Git](#fundamental-actions-using-git)
+- [Installation of Git and Github Desktop](#installation-of-git-and-github-desktop)
+- [Git Basic Commands](#git-basic-commands)
+  - [Initializing a Repo](#initializing-a-repo)
+  - [Dealing with Branches](#dealing-with-branches)
+  - [Updating the Changes](#updating-the-changes)
+  - [Update Remote Repository](#update-remote-repository)
+  - [Viewing History](#viewing-history)
+  - [Handling Conflicts](#handling-conflicts)
+- [Git: SSH vs HTTPS vs CLI](#git-ssh-vs-https-vs-cli)
+  - [SSH (Secure Shell)](#ssh-secure-shell)
+  - [HTTPS](#https)
+  - [ GitHub CLI (Command Line Interface)](#cli-command-line-interface)
+- ['.gitignore' File](#gitignore-file)
 
 ## What is Git and GitHub?
 
@@ -20,19 +34,19 @@
 
 ## Installation of Git and Github Desktop
 
-To install Git on **Windows** :
+### To install Git on **Windows** :
 
 ```sh
 https://git-scm.com
 ```
 
-To install Git on **Linux** :
+### To install Git on **Linux** :
 
 ```sh
 $ sudo dnf install git-all
 ```
 
-To install **Github_Desktop**:
+### To install **Github_Desktop**:
 
 ```sh
 https://github.com/apps/desktop
@@ -102,3 +116,9 @@ git clone [repository_url]
 git commit -m "Commit message"
 git push origin main
 ```
+
+#
+
+## **.gitignore** File
+
+> The `.gitignore` file is a configuration file used by Git to specify which files and directories should be ignored and not tracked by version control.
