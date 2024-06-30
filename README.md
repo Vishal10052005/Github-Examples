@@ -139,19 +139,19 @@ git push origin main
 
 ## **.gitignore** File
 
-> The `.gitignore` file is a configuration file used by Git to specify which files and directories should be ignored and not tracked by version control.
+The `.gitignore` file is a configuration file used by Git to specify which files and directories should be ignored and not tracked by version control.
 
 ## README.md File
 
-> A **README** file is an markdown file`(.md)` used to provide an overview of the project, including installation instructions, usage guidelines, and contribution information. It serves as the primary source of documentation for users and contributors. It helps in quickly understanding the project's purpose and how to get started with it.
+A **README** file is an markdown file`(.md)` used to provide an overview of the project, including installation instructions, usage guidelines, and contribution information. It serves as the primary source of documentation for users and contributors. It helps in quickly understanding the project's purpose and how to get started with it.
 
 ## **Pull Requests**
 
-> A **Pull Request (PR)** is a method of submitting contributions to a project. It allows developers to notify project maintainers about changes they'd like to merge into the main codebase.
+A **Pull Request (PR)** is a method of submitting contributions to a project. It allows developers to notify project maintainers about changes they'd like to merge into the main codebase.
 
 ## **Issues**
 
-> **Issues** on GitHub are used to track tasks, enhancements, bugs, and other project-related work. They allow users and contributors to discuss and collaborate on these topics. Each issue can be tagged, assigned, and referenced in commits and pull requests to streamline project management.
+- **Issues** on GitHub are used to track tasks, enhancements, bugs, and other project-related work. They allow users and contributors to discuss and collaborate on these topics. Each issue can be tagged, assigned, and referenced in commits and pull requests to streamline project management.
 
 ## Steps to Link an Issue to a Pull Request :
 
