@@ -19,9 +19,14 @@
 - ['.gitignore' File](#gitignore-file)
 - ['README.md' File](#readmemd-file)
 - [Pull Request](#pull-requests)
+  - [Pull Request template](#pull-request-template)
 - [Issues](#issues)
-  - [Link Issues with Pullrequest](#steps-to-link-an-issue-to-a-pull-request-)
+  - [Link Issues with Pull Request](#steps-to-link-an-issue-to-a-pull-request)
   - [Issue Template](#issue-template)
+- [CODEOWNERS](#codeowners)
+- [Gists](#gists)
+- [Github Pages](#github-pages)
+- [GitHub Actions](#github-actions)
 
 ## What is Git and GitHub?
 
@@ -149,6 +154,30 @@ A **README** file is an markdown file`(.md)` used to provide an overview of the 
 
 A **Pull Request (PR)** is a method of submitting contributions to a project. It allows developers to notify project maintainers about changes they'd like to merge into the main codebase.
 
+## **Pull Request template**
+
+Creating a pull request (PR) template in GitHub helps standardize the information provided in PRs, making it easier for reviewers to understand the purpose and context of changes. Here’s how to set up and use a PR template in your GitHub repository.
+
+### Create the Template File:
+
+The PR template file can be named `PULL_REQUEST_TEMPLATE.md`.
+
+**Write the Template:**<br>
+
+> - The template should include sections that guide contributors on what information to provide.<br>
+> - **directory:**<br>
+>
+> ```
+> .github/
+> └── ISSUE_TEMPLATE/
+>    ├── bug_report.md
+>    └── config.yml
+> ```
+
+**Common sections include:**<br>
+
+> - Description, Related Issue, Motivation and Context,, Screenshots, Types of Changes, Checklist, etc.
+
 ## **Issues**
 
 - **Issues** on GitHub are used to track tasks, enhancements, bugs, and other project-related work. They allow users and contributors to discuss and collaborate on these topics. Each issue can be tagged, assigned, and referenced in commits and pull requests to streamline project management.
@@ -203,4 +232,50 @@ A configuration file can be used to further customize the behavior of issue temp
 └── ISSUE_TEMPLATE/
    ├── bug_report.md
    └── config.yml
+```
+
+## **CODEOWNERS**
+
+In GitHub, the `CODEOWNERS` file is used to define the individuals or teams responsible for code in a repository. When a CODEOWNERS file is present, GitHub uses it to automatically request reviews from the specified owners when someone opens a pull request that modifies the code they own.
+
+> **Location:**<br> The CODEOWNERS file can be placed in the root of the repository, in the `.github` directory, or in the docs directory.
+
+> **Syntax:**<br>
+> Each line specifies a file pattern followed by one or more owners.<br>
+> Owners can be GitHub usernames or teams in the format `@organization/team`.
+
+## Gists
+
+Gists in GitHub are a way to share code snippets, notes, or any other text-based information. They can be public or private, and each Gist is a Git repository, which means you can clone, fork, and manipulate it like any other Git repository.
+
+### To create Gists:
+
+```
+https://gist.github.com/
+```
+
+## Github pages
+
+GitHub Pages is a feature that allows you to host static websites directly from a GitHub repository. It's a great way to publish personal sites, project documentation, or any other static content.
+
+To create a static pages name the Repo as :<br>
+
+```
+username.github.io
+```
+
+### Access Your Site:
+
+```
+https://<username>.github.io/<repository-name>/
+```
+
+## GitHub Actions
+
+GitHub Actions is a powerful CI/CD (Continuous Integration and Continuous Deployment) platform that allows you to automate workflows directly within your GitHub repository. You can use GitHub Actions to build, test, and deploy your code based on specific events like pushes, pull requests, or scheduled times.
+
+An Action `Workflow YAML file(.yml)` is created in
+
+```
+.github/workflows/
 ```
