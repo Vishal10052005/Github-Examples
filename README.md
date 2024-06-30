@@ -111,7 +111,7 @@ https://github.com/apps/desktop
 
 ### SSH (Secure Shell):
 
-> Uses cryptographic keys for secure communication between your local machine and the remote server.
+- It Uses cryptographic keys for secure communication between your local machine and the remote server.
 
 ```sh
 git clone git@github.com:user/repository.git
@@ -119,7 +119,7 @@ git clone git@github.com:user/repository.git
 
 ### HTTPS
 
-> Uses the standard HTTP protocol with encryption, requiring a username and password (or a personal access token) for each interaction with the remote repository.
+- Uses the standard HTTP protocol with encryption, requiring a username and password (or a personal access token) for each interaction with the remote repository.
 
 ```sh
 git clone https://github.com/user/repository.git
@@ -127,7 +127,7 @@ git clone https://github.com/user/repository.git
 
 ### CLI (Command-Line Interface)
 
-> The tool you use to issue Git commands through your terminal or command prompt.
+- The tool you use to issue Git commands through your terminal or command prompt.
 
 ```sh
 git clone [repository_url]
