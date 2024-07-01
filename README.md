@@ -1,4 +1,8 @@
-# Github-Examples
+# Git-And-Github-Foundation-Course
+
+This document serves as a summary for the GitHub Foundation Course, providing an overview of Git and GitHub, their definitions, and fundamental actions. It includes instructions for installation, basic commands, and using Git with SSH, HTTPS, and CLI. The guide also explains the purpose and usage of .gitignore files, pull requests, and issues along with their templates and explores GitHub features such as CODEOWNERS, Gists, GitHub Pages,Labels and GitHub Actions.
+
+## Contents
 
 - [Git and GitHub](#what-is-git-and-github)
   - [Git](#git)
@@ -16,8 +20,8 @@
   - [SSH (Secure Shell)](#ssh-secure-shell)
   - [HTTPS](#https)
   - [ GitHub CLI (Command Line Interface)](#cli-command-line-interface)
-- ['.gitignore' File](#gitignore-file)
-- ['README.md' File](#readmemd-file)
+- [.gitignore File](#gitignore-file)
+- [README.md File](#readmemd-file)
 - [Pull Request](#pull-requests)
   - [Pull Request template](#pull-request-template)
 - [Issues](#issues)
@@ -27,6 +31,9 @@
 - [Gists](#gists)
 - [Github Pages](#github-pages)
 - [GitHub Actions](#github-actions)
+- [Labels](#labels)
+
+---
 
 ## What is Git and GitHub?
 
@@ -53,7 +60,12 @@
 
 ## Fundamendatal actions using Git
 
-> <strong>Clone</strong>: Create a local copy of a remote repository from the Github.<br> <strong>Commit</strong>: Save changes to the local repository with a message describing the changes in form of tree.<br> <strong>Push</strong>: Upload local commits to a remote repository.<br> <strong>Pull</strong>: Fetch and merge changes from a remote repository to the local repository.<br> <strong>Branch</strong>: Create a separate line of development used to mulitple ways of development of the same repository at the same time .<br> <strong>Merge</strong>: Combine changes from different branches after dealing with conflicts to main branch.<br> <strong>Fork</strong>: Create a personal copy of someone else's repository on GitHub.<br><strong>Issues</strong>: Track bugs, enhancements, or tasks related to the project.<br>
+<strong>Clone</strong>: Create a local copy of a remote repository from the Github.<br>
+<strong>Commit</strong>: Save changes to the local repository with a message describing the changes in form of tree.<br>
+<strong>Push</strong>: Upload local commits to a remote repository.<br> <strong>Pull</strong>: Fetch and merge changes from a remote repository to the local repository.<br>
+<strong>Branch</strong>: Create a separate line of development used to mulitple ways of development of the same repository at the same time .<br> <strong>Merge</strong>: Combine changes from different branches after dealing with conflicts to main branch.<br>
+<strong>Fork</strong>: Create a personal copy of someone else's repository on GitHub.<br>
+<strong>Issues</strong>: Track bugs, enhancements, or tasks related to the project.<br>
 
 ## Installation of Git and Github Desktop
 
@@ -164,19 +176,18 @@ The PR template file can be named `PULL_REQUEST_TEMPLATE.md`.
 
 **Write the Template:**<br>
 
-> - The template should include sections that guide contributors on what information to provide.<br>
-> - **directory:**<br>
->
-> ```
-> .github/
-> └── ISSUE_TEMPLATE/
->    ├── bug_report.md
->    └── config.yml
-> ```
+- The template should include sections that guide contributors on what information to provide.<br><br>
+  **directory:**<br><br>
+  ```
+  > .github/
+  └── ISSUE_TEMPLATE/
+      ├── bug_report.md
+      └── config.yml
+  ```
 
 **Common sections include:**<br>
 
-> - Description, Related Issue, Motivation and Context,, Screenshots, Types of Changes, Checklist, etc.
+- Description, Related Issue, Motivation and Context,, Screenshots, Types of Changes, Checklist, etc.
 
 ## **Issues**
 
@@ -238,13 +249,13 @@ A configuration file can be used to further customize the behavior of issue temp
 
 In GitHub, the `CODEOWNERS` file is used to define the individuals or teams responsible for code in a repository. When a CODEOWNERS file is present, GitHub uses it to automatically request reviews from the specified owners when someone opens a pull request that modifies the code they own.
 
-> **Location:**<br> The CODEOWNERS file can be placed in the root of the repository, in the `.github` directory, or in the docs directory.
+**Location:**<br><br> The CODEOWNERS file can be placed in the root of the repository, in the `.github` directory, or in the docs directory.
 
-> **Syntax:**<br>
-> Each line specifies a file pattern followed by one or more owners.<br>
-> Owners can be GitHub usernames or teams in the format `@organization/team`.
+**Syntax:**<br><br>
+Each line specifies a file pattern followed by one or more owners.<br>
+Owners can be GitHub usernames or teams in the format `@organization/team`.
 
-## Gists
+## **Gists**
 
 Gists in GitHub are a way to share code snippets, notes, or any other text-based information. They can be public or private, and each Gist is a Git repository, which means you can clone, fork, and manipulate it like any other Git repository.
 
@@ -254,7 +265,9 @@ Gists in GitHub are a way to share code snippets, notes, or any other text-based
 https://gist.github.com/
 ```
 
-## Github pages
+---
+
+## **Github pages**
 
 GitHub Pages is a feature that allows you to host static websites directly from a GitHub repository. It's a great way to publish personal sites, project documentation, or any other static content.
 
@@ -270,7 +283,7 @@ username.github.io
 https://<username>.github.io/<repository-name>/
 ```
 
-## GitHub Actions
+## **GitHub Actions**
 
 GitHub Actions is a powerful CI/CD (Continuous Integration and Continuous Deployment) platform that allows you to automate workflows directly within your GitHub repository. You can use GitHub Actions to build, test, and deploy your code based on specific events like pushes, pull requests, or scheduled times.
 
@@ -279,3 +292,19 @@ An Action `Workflow YAML file(.yml)` is created in
 ```
 .github/workflows/
 ```
+
+## **Labels**
+
+Labels in GitHub are used to categorize issues and pull requests, making it easier to manage and organize your project's workflow.
+
+**<u>Common Labels:</u>**
+
+- **Status:** bug, enhancement, help wanted, question.<br><br>
+- **Priority:** high,medium,low.<br><br>
+- **Type:** feature, documentation, refactor
+
+## **Conclusion**
+
+Mastering Git and GitHub is essential for efficient version control and collaboration in modern software development. This Document helps you to equips with the foundational knowledge to effectively manage and contribute to projects.
+
+---
