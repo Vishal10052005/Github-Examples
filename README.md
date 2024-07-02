@@ -1,4 +1,4 @@
-# Git-And-Github-Foundation-Course
+# Git-And-Github-Foundation-Certification-Course
 
 This document serves as a summary for the GitHub Foundation Course, providing an overview of Git and GitHub, their definitions, and fundamental actions. It includes instructions for installation, basic commands, and using Git with SSH, HTTPS, and CLI. The guide also explains the purpose and usage of .gitignore files, pull requests, and issues along with their templates and explores GitHub features such as CODEOWNERS, Gists, GitHub Pages,Labels and GitHub Actions.
 
